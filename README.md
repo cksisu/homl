@@ -38,5 +38,5 @@ Link to use Author's repo and provided notebooks online:
 
 **Quick links:**
 
-* [Chapter 1: The Machine Learning Landscape](../ch01)
+* [Chapter 1: The Machine Learning Landscape](https://github.com/cksisu/homl/tree/main/ch01)
 
