@@ -1,13 +1,13 @@
-# Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow
+# Study tracker 
 
-## By Aurelien Geron
+## Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow By Aurelien Geron (2nd Edition)
 
 ### Tracking repo for book exercises and other related works
 
-This repo is used to track my exercises and related work as I read through the
-book a second time as part of my warmup work for my ML Masters work. I read the
-book a few years back, but did not really do any of the exercises and only
-applied bits and pieces to the work I was doing on a day-to-day basis.
+I'm studying this book for a second time as part of my warmup work for my custom
+"ML Masters" work. I read the book (1st edition) a few years back, but did not
+really do any of the exercises and only applied bits and pieces to the work
+I was doing on a day-to-day basis.
 
 This time I want to complete the exercises to hold myself accountable and
 refamiliarize myself with the the core ML libraries covered. I am developing a
@@ -32,11 +32,11 @@ Link to use Author's repo and provided notebooks online:
    background and understanding
 2. Complete the end of chapter exercises from the book with additional insight
    and commentary for posterity
-3. Skip the stuff that is not of significant value or is duplicative when
-   compared to other work/studies I'm currently doing. *Just make sure to
+3. Skip the stuff that is not of significant incremental value or is repetitive
+   when compared to other work/studies I'm currently doing. *Just make sure to
    properly document why the material was skipped!*
 
-**Quick links:**
+**Content quick links**
 
 * [Chapter 1: The Machine Learning Landscape](https://github.com/cksisu/homl/tree/main/ch01)
 
