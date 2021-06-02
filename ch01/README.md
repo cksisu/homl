@@ -7,14 +7,14 @@
 1. **How would you define Machine Learning?**
  
    Machine Learning is the process of learning from data. Specifically, an ML
-   process is any task where data used as an input to process improves the
+   process is any task where data used as an input to the process improves the
    performance of said task.
 
 2. **Can you name four types of problems where it shines?**
 
    1. Problems where existing solutions require a lot of fine tuning or lots of
       rules to encapsulate the logic
-   2. Complex problems where tradtional approaches can't provide an adequate solution
+   2. Complex problems where traditional approaches can't provide an adequate solution
    3. Fluctuating environments where the data is changing and must be adjusted to
    4. Gaining insights from large volumes of data that are otherwise intractable
 
@@ -28,10 +28,10 @@
 4. **What are the two most common supervised tasks?**
  
    * Classification - aims to predict the category of an observation based on
-     certain attributes or characterstics of previous obervations in a specific
+     certain attributes or characteristics of previous observations in a specific
      category
    * Regression - aims to predict a target value such as the sale price a house
-     based attributes or characterstics of previously sold houses
+     based attributes or characteristics of previously sold houses
 
 5. **Can you name four common unsupervised tasks?**
 
@@ -64,7 +64,7 @@
    groups?**
 
    There are a couple of algorithms you could use for this purpose. If you
-   already know the segments you are trying group customers in you have
+   already know the segments you are trying group customers into and you have
    historical data you could use a multi-label or group classification
    algorithm. However, if you do not know what groupings you're looking for and
    are instead looking to discover the segments, an unsupervised clustering
@@ -78,16 +78,17 @@
    spam that has used tactics similar to the examples that the model was
    trained on. However, spammers often change their tactics over time and the
    model would likely need to be frequently retrained, so adding in an online
-   learning or semi-supervised learning component would likely imporove task
-   performance when trying to deal with everchanging spam tactics.
+   learning or semi-supervised learning component would likely improve task
+   performance when trying to deal with ever changing spam tactics.
 
 9. **What is an online learning system?**
 
    An online learning system learns incrementally on small amounts of data,
    known as mini or micro batches. The system can learn on the fly and is low
-   cost from a data infrastructure because it learns continuously using a
-   smaller amount of computing resources than large batch models that need
-   very large data volumes to train.
+   cost from a data infrastructure perspective because it learns continuously
+   using a smaller amount of computing resources than large batch models that
+   need very large data volumes loaded into the computer memory at the same
+   time to properly train.
 
 10. **What is out-of-core learning?**
 
@@ -100,9 +101,9 @@
 11. **What type of algorithm relies on a similarity measure to make
     predictions?**
 
-    *Instance-based learning* relies on learing a known set of training
+    *Instance-based learning* relies on learning a known set of training
     examples and then generalizing to new examples based on applying a measure
-    of similiarity between the new examples and the known examples.
+    of similarity between the new examples and the known examples.
 
 12. **What do model-based learning algorithms search for? What is the most
     common strategy they use to succeed? How do they make predictions?**
@@ -111,24 +112,24 @@
     data they are trained on. The most common strategy is to define a utility
     or fitness function to judge how good model fits the data, or define cost
     function to judge how poorly the model fits the data, then train the model 
-    through optimzation to maximize the utiltity function or minimize the cost
-    funtion. Once the model is trained it is used to make predictions on new
+    through optimization to maximize the utility function or minimize the cost
+    function. Once the model is trained it is used to make predictions on new
     data by applying the model to the new data which is called inference.
 
 13. **What is the difference between a model parameter and a learning
     algorithm's hyperparameter?**
 
     A model parameter is an output value that was tweaked during the model
-    training or optimzation process and is applied to new data to make
-    predictions durning the inference process. A hyperparameter is a parameter 
+    training or optimization process and is applied to new data to make
+    predictions during the inference process. A hyperparameter is a parameter 
     of a specific learning algorithm that is used to tune or change how the
     algorithm performs during training but is not an data parameter of the
     model.
 
-14. **Can you name the four main chanllenges of Machine Learning?**
+14. **Can you name the four main challenges of Machine Learning?**
 
-    1. Insufficient quanity of training data
-    2. Nonrepresentative training data
+    1. Insufficient quantity of training data
+    2. Non-representative training data
     3. Poor quality data
     4. Underfitting and overfitting training data
 
@@ -148,9 +149,9 @@
     The test set is holdout set that is never used during the model training and
     validation process it. It's purpose is to judge how well the model
     generalizes to completely unknown data by comparing it's training and
-    validation performance against it's performance making preditions on the
-    test set. The differnce in performance in training vs the test set is the
-    model's generatization error.
+    validation performance against it's performance making predictions on the
+    test set. The difference in performance in training vs the test set is the
+    model's generalization error.
 
 17. **What is the purpose of a validation set?**
 
