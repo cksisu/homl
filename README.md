@@ -28,7 +28,7 @@ Link to use Author's repo and provided notebooks online:
 
 #### Exercises and practice approach
 
-1. Read the [scikit-learn API research paper](api-design-ml-software.pdf) for
+1. Read the [scikit-learn API research paper](docs/api-design-ml-software.pdf) for
    background and understanding
 2. Complete the end of chapter exercises from the book with additional insight
    and commentary for posterity
